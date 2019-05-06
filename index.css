@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    color: #ffffff;
+    height: 100vh;
+}
+
+body {
+    margin:0 auto;
+    padding: 0; /* Spread it to the end of page borders */
+}
+
+.container {
+    padding: 3em; /* moves it from sides */
+}
+header {
+    background-color: #444444;
+
+}
+
+.mainbody {
+    display: flex; /* Again to switch the direction */
+    flex-direction: row;
+    justify-content: flex-start;
+    align-content: center;
+    align-items: stretch; /* Makes it heigher */
+    flex-grow: 1;
+}
+.sidebar {
+    background-color: #f56708;
+    
+}
+
+.article {
+    color: black;
+    text-align: justify; /* block alignment */
+    padding: 8em;
+}
+
+footer {
+    background-color: #44444493;
+}
